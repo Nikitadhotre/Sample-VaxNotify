@@ -1,0 +1,82 @@
+.outer-box {
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #3ed8ff, #265960);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inner-box {
+    width: 600px;
+    background: linear-gradient(to top left, #ffffff, #ffffff33);
+    backdrop-filter: blur(8px);
+    padding: 20px 40px;
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #2773a5;
+}
+
+.login-header h1 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 700;
+    color: #000000;
+}
+
+.form-label {
+    font-size: 1.2rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 800;
+    color: #000000;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.form-control {
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.btn-primary {
+    font-family: 'Lato', sans-serif;
+    background-color: #007bff;
+    color: white;
+    font-weight: 800;
+    font-size: 1.2rem;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+    text-align: center;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the Forgot Password and Register Links */
+.forgot-password-link, .register-link {
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.forgot-password-link a, .register-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.forgot-password-link a:hover, .register-link a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}

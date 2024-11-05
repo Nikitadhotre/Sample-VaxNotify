@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.nav-item {
+  font-size:18px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.home-page-container {
+  font-family: "Noto Sans", sans-serif;
+}
+
+.home-page-main h1{
+   font-size:56px;
+   font-weight: 600;
+   line-height: 67px;
+}
+
+.home-page-main p{
+  font-size:20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: rgb(207, 197, 197) ;
+}
+
+.home-page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  font-weight: 600;
+  font-size: 1.1rem;
+}
+
+.home-page-header .logo {
+  margin-right: 20px;
+}
+
+.logo img{
+  width: 220px;
+}
+
+.login-signup {
+  display: flex;
+  align-items: center;
+}
+
+.hero-image {
+  width: 100%;
+}
+
+.home-page-main {
+  height: 100vh; /* Full viewport height */
+  background-color: rgba(5, 44, 69, 1);
+  color: white; /* Apply white color to all text inside main */
+}
+
+.section {
+  padding: 40px;
+  background-color: transparent; /* Optional: Make section background transparent */
+  color: black; /* Ensure section text is readable on dark background */
+}
+
+section h1 {
+  font-size: 40px;
+  font-weight:600 ;
+  line-height: 48px;
+}
+
+section p {
+  font-size: 18px;
+  font-weight:400 ;
+  line-height: 27px;
+  color:rgb(70, 70, 70) ;
+}
+
+.sec1-img {
+  width: 100%;
+}
+
+.home-page-footer {
+  text-align: center;
+  padding: 20px;
+}
+
+
+.vaccination-info {
+  font-family: Arial, sans-serif;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+section img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  border-radius: 15px;
+}
+
+.hero-image {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.container-main {
+  max-width: 1200px;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.column-spacing {
+  margin-bottom: 10px; /* Adjust spacing as needed */
+}
+
+
+/* Optional: Add padding or margins between sections */
+section {
+  padding: 30px 0; /* Top and bottom padding for each section */
+}
+
+.section6 img {
+  width: 60%;
+  height: auto;
+
+}

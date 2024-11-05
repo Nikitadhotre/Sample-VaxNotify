@@ -1,0 +1,18 @@
+.table {
+    margin-top: 20px;
+  }
+  
+  .table th,
+  .table td {
+    text-align: center;
+  }
+  
+  .table th {
+    background-color: rgba(5, 44, 69, 1);
+    color: white;
+  }
+  
+  .table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
